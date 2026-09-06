@@ -12,6 +12,8 @@
   #  enable = true;
   #  webInterface = false;
   #};
+  users.users.thor.extraGroups = [ "docker" ];
+
   virtualisation.docker = {
     enable = true;
   };
