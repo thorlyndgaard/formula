@@ -31,6 +31,10 @@
     };
     discord-canary = {
       enable = true;
+      hardwareAcceleration = {
+        device = "10de:2504";
+        #libva_driver = "nvidia";
+      };
       openASAR = false;
       extraDiscordPackageConfig.vulkan = false;
     };
