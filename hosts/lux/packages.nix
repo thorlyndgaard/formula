@@ -13,7 +13,6 @@
   #  webInterface = false;
   #};
 
-
   modules = {
     programs = {
       apps = {
@@ -28,15 +27,15 @@
         enable = true;
         game-optimize.settings = {
           CpuThreads = 16;
-          #VulkanDevice = "1002:67df";
-          #DXVKDeviceName = "AMD Radeon";
+          VulkanDevice = "10de:2504";
+          DXVKDeviceName = "NVIDIA GeForce";
         };
 
         gamescope.session = {
           enable = true;
           monitor = 0;
           settings = {
-            #VulkanAdapter = "1002:67df";
+            VulkanAdapter = "10de:2504";
             SteamDeckHud = false;
             MangoApp = true;
           };
