@@ -12,6 +12,9 @@
   #  enable = true;
   #  webInterface = false;
   #};
+  virtualisation.docker = {
+    enable = true;
+  };
 
   modules = {
     programs = {
