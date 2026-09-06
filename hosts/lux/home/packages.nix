@@ -53,13 +53,13 @@
     };
   };
 
-
   modules = {
     impermanence = {
       packages = with pkgs; [
         kdePackages.kdenlive
         gimp3-with-plugins
         footage
+        proton-vpn
         {
           package = spotify;
           data = [
