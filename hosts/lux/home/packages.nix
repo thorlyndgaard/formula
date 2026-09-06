@@ -66,6 +66,8 @@
         gimp3-with-plugins
         footage
         proton-vpn
+        nodejs
+
         {
           package = spotify;
           data = [
