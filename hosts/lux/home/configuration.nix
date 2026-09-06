@@ -9,6 +9,7 @@
 
   presets.mansaos-oobe = {
     profileImage = ./profile.jpg;
+    excludePackages = [ "shadower" ];
   };
   modules = {
     impermanence = {

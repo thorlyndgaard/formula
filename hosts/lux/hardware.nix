@@ -51,7 +51,7 @@
         nvidia = {
           enable = true;
           initrd = true;
-          cudaSupport = true;
+          cudaSupport = false;
           # https://github.com/NixOS/nixpkgs/blob/nixos-unstable/pkgs/os-specific/linux/nvidia-x11/default.nix
           # Temporary fix, beta package is not compatible with kernel 7.1, so we use latest (610.43)
           #package = config.boot.kernelPackages.nvidiaPackages.latest;
