@@ -1,6 +1,6 @@
-# MansaOS
+# formula | MansaoOS
 
-My NixOS formula
+My NixOS configuration repository
 
 
 Example installation steps:
