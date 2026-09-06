@@ -14,6 +14,7 @@
   );
 
   presets.app = {
+
     floorp = {
       # userChrome.sidebar = {
       #   hideDelay = "0ms";
@@ -30,6 +31,7 @@
     };
     discord-canary = {
       enable = true;
+      openASAR = false;
       extraDiscordPackageConfig.vulkan = false;
     };
   };
