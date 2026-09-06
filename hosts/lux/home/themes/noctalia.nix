@@ -7,6 +7,7 @@
       hl.bind("SUPER + L", hl.dsp.exec_cmd(noctaliaIPC .. "session lock"))
       hl.bind("SUPER + CTRL + X", hl.dsp.exec_cmd(noctaliaIPC .. "panel-toggle wallpaper"))
       hl.bind("SUPER + X", hl.dsp.exec_cmd(noctaliaIPC .. "wallpaper-random"))
+      hl.bind("CTRL + mouse:275", hl.dsp.exec_cmd(noctaliaIPC .. "mic-mute"))
     '';
     noctalia.settings = {
       shell.avatar_path = "~/.face";
