@@ -11,7 +11,7 @@
       # rotate  - rotate the cursor based on movement direction
       # stretch - stretch the cursor shape based on direction and velocity
       # none    - do not change the cursor's behaviour
-      mode = "rotate";
+      mode = "tilt";
       # for mode = "rotate"
       rotate = {
         # length in px of the simulated stick used to rotate the cursor
