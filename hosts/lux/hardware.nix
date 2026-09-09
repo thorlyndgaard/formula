@@ -14,7 +14,7 @@
     hardware = {
       random.havitfuxih3.enable = true;
       core.enable = true;
-      # archOptimizations.variant = "x86_64-v3";
+      archOptimizations.variant = "x86_64-v3";
       displays = {
         enable = true;
         monitors = [
