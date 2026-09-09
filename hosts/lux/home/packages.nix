@@ -31,11 +31,13 @@
     };
     discord-canary = {
       enable = true;
+      vencord.settings = {
+        enabledThemes = [ ];
+      };
       hardwareAcceleration = {
         device = "10de:2504";
         #libva_driver = "nvidia";
       };
-      openASAR = false;
       extraDiscordPackageConfig.vulkan = false;
     };
   };
@@ -81,6 +83,11 @@
 
     apps = {
       lutris.enable = true;
+      fish.extraConfig = {
+        shellInit = ''
+          fastfetch
+        '';
+      };
     };
 
     flatpak = {
