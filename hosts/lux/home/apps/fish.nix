@@ -1,0 +1,5 @@
+{
+  programs.fish.shellInitLast = ''
+    fastfetch
+  '';
+}
