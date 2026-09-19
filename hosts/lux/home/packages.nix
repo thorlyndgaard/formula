@@ -69,6 +69,10 @@
         footage
         proton-vpn
         nodejs
+        jdk
+        mvnd
+        codex
+        postman
 
         {
           package = spotify;
