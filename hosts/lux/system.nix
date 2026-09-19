@@ -1,12 +1,11 @@
 {
   ...
 }:
-
 {
   modules.system = {
     kernel = {
-      #kernel = "cachyos-bore-lto";
-      kernel = "latest";
+      kernel = "cachyos-bore-lto";
+      #kernel = "latest";
       scx.scheduler = "scx_lavd";
     };
 
